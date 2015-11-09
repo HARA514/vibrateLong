@@ -4,7 +4,9 @@ $(document).on("pagecreate","#pageone",function(){
 
 	$('#taptext').on("tap",function(){
     	$(this).css('color', 'red');
-		$(this).vibrate("long");
  	});
+ 	
+ 	$('#taptext').vibrate("long");
+	});
 
 });
